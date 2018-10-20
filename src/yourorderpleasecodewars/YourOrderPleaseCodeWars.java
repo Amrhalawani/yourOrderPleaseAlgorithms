@@ -15,10 +15,11 @@ public class YourOrderPleaseCodeWars {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        //https://www.codewars.com/kata/your-order-please
        String result = Order.order("4of Fo1r pe6ople g3ood th5e the2");
         System.out.println(result);
          String result2 = Order.order("");
-        System.out.println(result2);
+        System.out.println( result2 );
     }
     
 }
